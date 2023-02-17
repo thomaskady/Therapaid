@@ -1,0 +1,14 @@
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100vh;
+  background-color: #e6eafd;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

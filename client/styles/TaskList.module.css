@@ -1,0 +1,27 @@
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100vh;
+  background-color: #e6eafd;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dateHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dateHeader button{
+  background-color: #000098;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+}
